@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: addresses
-    description: data related to customer address
+    description: Table related to customer address
     columns:
       - name: address_id
         description: Primary key for address
@@ -19,7 +19,7 @@ models:
         description: Postal mailing country
 
   - name: users
-    description: Data related to users
+    description: Table related to users
     columns:
       - name: user_id
         description: Primary key for users
@@ -37,7 +37,7 @@ models:
         description: id for joining to address table
 
   - name: orders
-    description: Data related to orders
+    description: Table related to orders
     columns:
       - name: order_id
         description: Primary key for orders
@@ -68,7 +68,7 @@ models:
         description: the status of the order
 
   - name: events
-    description:  data related to all events by customers
+    description:  Table related to all events by customers
     columns:
       - name: event_id
         description: Primary key. Unique event_id
@@ -90,7 +90,7 @@ models:
         description: id or product related to the event
 
   - name: products
-    description: data related to product info
+    description: Table related to product info
     columns:
       - name: product_id
         description: Primary key. Unique product id
@@ -114,7 +114,7 @@ models:
         description: how much was order per product
 
   - name: promos
-    description: data related promotions
+    description: table related to promotions
     columns:
       - name: promo_id
         description: primary key for promotions
