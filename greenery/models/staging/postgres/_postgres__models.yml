@@ -125,3 +125,5 @@ models:
         description: value of the discount due to promotion
       - name: status
         description: promotion status
+  
+  
