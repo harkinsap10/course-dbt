@@ -1,0 +1,27 @@
+version: 2
+models:
+  - name: int_page_views
+    description: table with event data as well as product information
+    columns:
+      - name: event_id
+        description: unique event id and primary key for the table
+        tests: 
+          - unique
+          - not_null
+      - name: session_id
+        description: unique id for each web session
+      - name: user_id 
+        description: unique id for each user during sessions and making events
+      - name: page_url
+        description: the website link to each page visited
+      - name: created_at 
+        description: when the event was created
+      - name: event_type
+        description: the type of event that occurred
+      - name: order_id
+        description: id of each order
+      - name: product_id 
+        description: id of each product  
+      - name: product_name
+      - name: product_price
+      - name: product_inventory
