@@ -5,5 +5,4 @@ sources:
     database: dev_db
     schema: harkinsapgmailcom
     tables: 
-     - name: int_page_views
      - name: fct_page_views

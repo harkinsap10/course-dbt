@@ -5,5 +5,4 @@ sources:
     database: dev_db
     schema: harkinsapgmailcom
     tables: 
-     - name: int_orders_with_products
      - name: fct_orders_with_products
