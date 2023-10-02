@@ -1,0 +1,5 @@
+version 2:
+
+macros:
+  - name: product_name
+    description: flattens the product_name column and sums the quantity

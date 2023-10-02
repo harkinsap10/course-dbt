@@ -1,5 +1,6 @@
 {{config(
     materialized = 'view'
+    , post_hook = 'grant select on table dev_db.harkinsapgmailcom.fct_orders_with_products to role reporting'
     )
 }}
 
