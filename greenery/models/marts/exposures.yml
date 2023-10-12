@@ -1,0 +1,17 @@
+version: 2
+
+exposures:  
+  - name: Product Funnel Dashboard
+    description: >
+      Models that are critical to our product funnel dashboard
+    type: dashboard
+    url: https://app.sigmacomputing.com/corise-dbt/workbook/Product-Funnel-Dashboard-1pTWAxCTKhPNa07NkDq6lI
+    maturity: high
+    owner:
+      name: Aaron Harkins
+      email: harkinsap@gmail.com
+    depends_on:
+      - ref('stg_postgres__events')
+      - ref('stg_postgres__orders')
+      - ref('int_page_views')
+      - ref('fct_page_views')
